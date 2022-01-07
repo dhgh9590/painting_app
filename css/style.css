@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body{ font-family: 'Raleway', sans-serif;}
+
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+section{width: 100%;height: 100vh; background: #f6f9fc; display: flex; justify-content: center; align-items: center; flex-direction: column; }
+
+.canvas{width: 700px;height:700px;background: #fff; border-radius: 10px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+
+
+.controls{margin-top: 50px;display: flex;flex-direction: column; align-items: center;}
+
+/* controls__range */
+.controls__range{margin-bottom: 20px;}
+
+/* controls__btns */
+.controls__btns{margin-bottom: 30px;}
+.controls__btns button{all: unset; cursor: pointer; background: #fff; padding: 5px 0px; width: 80px; font-weight: 600; font-size: 12px; text-transform: uppercase; text-align: center; border-radius: 5px; border: 2px solid rgba(0, 0, 0, 0.2); color: rgba(0, 0, 0, 0.8); box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+.controls__btns button:active{transform: scale(0.98);}
+
+/* controls__color */
+.controls__colors{display: flex; justify-content: center;}
+.controls__color{width: 50px;height: 50px;border-radius: 50%;cursor: pointer; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+
+
